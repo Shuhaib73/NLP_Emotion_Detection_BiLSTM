@@ -1,6 +1,7 @@
-# Emotion Detection Web Application: Fine-Tuned LLM [Bert] for Emotional Insights 🎭✨
+# Emotion Detection Web Application: Trained Bi-LSTM & GloVe for Emotional Insights 🎭✨
 
-Welcome to the Emotion Detection Web App! Unlock the power of cutting-edge AI to detect and understand emotions from text. Designed for researchers, marketers, and data enthusiasts, this app leverages fine-tuned BERT-base models to deliver precise and nuanced emotion classification. Whether analyzing customer feedback or understanding user sentiments, this tool is your go-to for emotional insights. 🌟
+Welcome to the Emotion Detection Web App! Harness the power of cutting-edge AI to detect and understand emotions from text. Designed for researchers, marketers, and data enthusiasts, this app leverages fine-tuned Bi-LSTM (Bidirectional Long Short-Term Memory) networks with GloVe word embeddings to provide accurate and nuanced emotion classification. Fine-tuned specifically on a labeled emotion dataset, this tool allows you to classify emotions in text with high precision. Whether analyzing customer feedback, social media posts, or user sentiments, this app delivers actionable emotional insights. 🌟
+
 
 ### *** Note: To access the Web Application Kindly visit my portfolio website or you can contact me through LinkedIn/Mail.***
 
@@ -9,9 +10,9 @@ Welcome to the Emotion Detection Web App! Unlock the power of cutting-edge AI to
 ## 📖 **Features**
 
 ✅ **Advanced Emotion Detection**: Classify text into diverse emotions such as Happiness, Anger, Sadness, Fear, and Surprise, providing a deeper understanding of human sentiment.  
-✅ **Fine-Tuned BERT-Base Model**: Powered by state-of-the-art natural language processing (NLP), the model is optimized for emotion recognition through text with superior accuracy.
+✅ **Trined Bi-LSTM Model**: Built using a Bidirectional LSTM, the model is fine-tuned on an emotion-labeled dataset to recognize emotional cues in text. This allows it to better understand both past and future context in sequences.
 
-✅ **LLM-Driven Context Understanding**: Leverages BERT’s bidirectional transformer architecture to capture context in text, enabling nuanced and accurate emotion detection.
+✅ **GloVe Word Embeddings**: Leverages pre-trained GloVe embeddings, which are fine-tuned alongside the Bi-LSTM model during training. This improves the model's ability to understand the relationships between words and their contextual meaning.
 
 ✅ **Customizable & Scalable**: The modular architecture supports fine-tuning for additional emotion classes or integration with larger datasets.
 
@@ -26,8 +27,8 @@ Welcome to the Emotion Detection Web App! Unlock the power of cutting-edge AI to
 - **Python** 🐍: The core programming language that powers the app.  
 - **Flask**: A Backend web framework for building web applications.  
 - **NLTK (Natural Language Toolkit)**: Utilized for preprocessing tasks like text tokenization and stopword removal.
-- **Transformers**: A library by Hugging Face providing pre-trained models like BERT, enabling advanced text understanding and fine-tuning for emotion detection.
-- **BERT (Bidirectional Encoder Representations from Transformers)**: A cutting-edge transformer-based model used for understanding the context of words in text. Fine-tuned for emotion detection and sentiment analysis.
+- **Bi-LSTM (Bidirectional Long Short-Term Memory)**: A deep learning model used for understanding sequential data in text. Fine-tuned for emotion detection tasks by learning context from both past and future sequences.
+- **GloVe (Global Vectors for Word Representation)**: Pre-trained word embeddings that capture semantic relationships between words, used as input for the Bi-LSTM model.
 - **TensorFlow**: Leveraged in this project as the primary framework for building and deploying the deep learning model for sentiment classification.
 - **Keras**: A high-level neural networks API, Used in combination with TensorFlow to simplify the construction and training of deep learning models, enabling efficient sentiment prediction.
 - **Torch (PyTorch)**: A powerful framework for building deep learning models. Used to train, fine-tune, and deploy the transformer models efficiently.
